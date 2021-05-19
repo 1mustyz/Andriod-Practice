@@ -6,4 +6,16 @@
         android:orientation="vertical"
         >
 
+        <TextView
+
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txvUserMessage"
+                android:textSize="30sp"
+                android:layout_margin="10dp"
+                android:textColor="#6B7EE8"
+                android:textStyle="italic"
+
+        />
 </LinearLayout>

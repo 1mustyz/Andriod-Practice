@@ -27,6 +27,9 @@ class MainActivity : AppCompatActivity() {
                 // navigating to second activity
 
             val intent = Intent(this, SecondActivity::class.java)
+
+            intent.putExtra("user_message", message)
+
             startActivity(intent)
 
         }
