@@ -31,7 +31,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/btnNextActivity"
-            tools:layout_editor_absoluteY="359dp"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/messageText"/>
+    <Button
+            android:text="Share To Other Apps"
+            android:layout_width="298dp"
+            android:layout_height="56dp"
+            android:id="@+id/btnShareToOtherApps"
+            tools:layout_editor_absoluteX="56dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnNextActivity"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
